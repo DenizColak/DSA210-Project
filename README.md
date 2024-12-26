@@ -1,6 +1,6 @@
 # DSA210-Project
 
-In this project I will be anlyzing my sleep schedule over a three month period and compare it with the data of which activies performed prior to sleep. Specifically, the goal is to determine whether reading a book late at night correlates positively with the time of the sleeping. A positive correlation would suggest that reading at late hours delays the time of sleep for this individual case.
+In this project I will be analyzing my sleep schedule over a three month period and compare it with the data of which activies performed prior to sleep. Specifically, the goal is to determine whether reading a book late at night correlates positively with the time of the sleeping. A positive correlation would suggest that reading at late hours delays the time of sleep for this individual case.
 
 Obtaining Data
 
