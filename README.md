@@ -39,10 +39,22 @@ Results of the T-Test shows us P-Value is 2.31e-07 well below significence level
 
 To explore potential predictive capabilities within the data, I implemented machine learning models aimed at forecasting sleep duration and sleep onset time based on late-night reading activity using linear regression. %80 of the data ıs split for training and remaining %20 is used for testing the model. Too few sample for the training hurts the overall accuracy of the model, but the results are not overfitted and meaningfull data can be earned from the model.
 
+## Limitations
 
+Sample Size: The dataset used in this project consists of data collected over a three-month period, which may not be sufficient to generalize findings. The small sample size also limits the robustness of hypothesis testing and machine learning models.
 
+Data Reliability: The sleep data extracted from the phone's health application and reading data from activity logs are subject to inaccuracies. Manual input for physical books adds an additional layer of potential error.
+Overlapping data sources, such as Kindle activity and phone usage, may introduce bias or redundancy.
 
+Uncontrolled Variables: Factors such as stress, physical activity, diet, and screen time prior to sleep were not accounted for and may significantly influence sleep patterns.
 
+## Future Work
+
+Extended Data Collection: Gather data over a longer period to improve the robustness of the analysis and hypothesis testing.
+
+Refinement of Data Sources: Enhance data accuracy by automating physical book reading tracking and refining overlap in data from Kindle and phone usage. Another application for sleep data may enchance the validness of the results by removing intermeditary apps.
+
+Model Optimization: Optimize machine learning models using advanced techniques (e.g., hyperparameter tuning) for improved prediction accuracy that is based solely on the available dataset.
 
 
 
